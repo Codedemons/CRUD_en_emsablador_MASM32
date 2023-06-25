@@ -1,0 +1,998 @@
+{\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff0\deff0\stshfdbch31505\stshfloch31506\stshfhich31506\stshfbi0\deflang2058\deflangfe2058\themelang2058\themelangfe0\themelangcs0{\fonttbl{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f2\fbidi \fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f34\fbidi \froman\fcharset0\fprq2{\*\panose 02040503050406030204}Cambria Math;}{\f37\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}
+{\f43\fbidi \froman\fcharset0\fprq0{\*\panose 00000000000000000000}var(--ff-mono){\*\falt Cambria};}{\flomajor\f31500\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fdbmajor\f31501\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhimajor\f31502\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0302020204030204}Calibri Light;}
+{\fbimajor\f31503\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\flominor\f31504\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fdbminor\f31505\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhiminor\f31506\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}
+{\fbiminor\f31507\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1149\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\f1150\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\f1152\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\f1153\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\f1154\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\f1155\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f1156\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\f1157\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\f1169\fbidi \fmodern\fcharset238\fprq1 Courier New CE;}{\f1170\fbidi \fmodern\fcharset204\fprq1 Courier New Cyr;}{\f1172\fbidi \fmodern\fcharset161\fprq1 Courier New Greek;}{\f1173\fbidi \fmodern\fcharset162\fprq1 Courier New Tur;}
+{\f1174\fbidi \fmodern\fcharset177\fprq1 Courier New (Hebrew);}{\f1175\fbidi \fmodern\fcharset178\fprq1 Courier New (Arabic);}{\f1176\fbidi \fmodern\fcharset186\fprq1 Courier New Baltic;}{\f1177\fbidi \fmodern\fcharset163\fprq1 Courier New (Vietnamese);}
+{\f1489\fbidi \froman\fcharset238\fprq2 Cambria Math CE;}{\f1490\fbidi \froman\fcharset204\fprq2 Cambria Math Cyr;}{\f1492\fbidi \froman\fcharset161\fprq2 Cambria Math Greek;}{\f1493\fbidi \froman\fcharset162\fprq2 Cambria Math Tur;}
+{\f1496\fbidi \froman\fcharset186\fprq2 Cambria Math Baltic;}{\f1497\fbidi \froman\fcharset163\fprq2 Cambria Math (Vietnamese);}{\f1519\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}{\f1520\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}
+{\f1522\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\f1523\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}{\f1524\fbidi \fswiss\fcharset177\fprq2 Calibri (Hebrew);}{\f1525\fbidi \fswiss\fcharset178\fprq2 Calibri (Arabic);}
+{\f1526\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}{\f1527\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese);}{\flomajor\f31508\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\flomajor\f31509\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\flomajor\f31511\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\flomajor\f31512\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\flomajor\f31513\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\flomajor\f31514\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\flomajor\f31515\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\flomajor\f31516\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fdbmajor\f31518\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fdbmajor\f31519\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\fdbmajor\f31521\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fdbmajor\f31522\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fdbmajor\f31523\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\fdbmajor\f31524\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fdbmajor\f31525\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fdbmajor\f31526\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\fhimajor\f31528\fbidi \fswiss\fcharset238\fprq2 Calibri Light CE;}{\fhimajor\f31529\fbidi \fswiss\fcharset204\fprq2 Calibri Light Cyr;}{\fhimajor\f31531\fbidi \fswiss\fcharset161\fprq2 Calibri Light Greek;}
+{\fhimajor\f31532\fbidi \fswiss\fcharset162\fprq2 Calibri Light Tur;}{\fhimajor\f31533\fbidi \fswiss\fcharset177\fprq2 Calibri Light (Hebrew);}{\fhimajor\f31534\fbidi \fswiss\fcharset178\fprq2 Calibri Light (Arabic);}
+{\fhimajor\f31535\fbidi \fswiss\fcharset186\fprq2 Calibri Light Baltic;}{\fhimajor\f31536\fbidi \fswiss\fcharset163\fprq2 Calibri Light (Vietnamese);}{\fbimajor\f31538\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\fbimajor\f31539\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fbimajor\f31541\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fbimajor\f31542\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\fbimajor\f31543\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fbimajor\f31544\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fbimajor\f31545\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\fbimajor\f31546\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\flominor\f31548\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\flominor\f31549\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\flominor\f31551\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\flominor\f31552\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\flominor\f31553\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\flominor\f31554\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\flominor\f31555\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\flominor\f31556\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\fdbminor\f31558\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fdbminor\f31559\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fdbminor\f31561\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\fdbminor\f31562\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fdbminor\f31563\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fdbminor\f31564\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\fdbminor\f31565\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fdbminor\f31566\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fhiminor\f31568\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}
+{\fhiminor\f31569\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}{\fhiminor\f31571\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\fhiminor\f31572\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}
+{\fhiminor\f31573\fbidi \fswiss\fcharset177\fprq2 Calibri (Hebrew);}{\fhiminor\f31574\fbidi \fswiss\fcharset178\fprq2 Calibri (Arabic);}{\fhiminor\f31575\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}
+{\fhiminor\f31576\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese);}{\fbiminor\f31578\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fbiminor\f31579\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\fbiminor\f31581\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fbiminor\f31582\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fbiminor\f31583\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\fbiminor\f31584\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fbiminor\f31585\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fbiminor\f31586\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;
+\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green0\blue0;\red0\green0\blue0;\red51\green102\blue255;\red204\green204\blue204;\red68\green84\blue106;}{\*\defchp 
+\fs22\loch\af31506\hich\af31506\dbch\af31505 }{\*\defpap \ql \li0\ri0\sa160\sl259\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 }\noqfpromote {\stylesheet{\ql \li0\ri0\sa160\sl259\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs22\alang1025 \ltrch\fcs0 \fs22\lang2058\langfe2058\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp2058\langfenp2058 \snext0 \sqformat \spriority0 Normal;}{\*
+\cs10 \additive \ssemihidden \sunhideused \spriority1 Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind0\tblindtype3\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv \ql \li0\ri0\sa160\sl259\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs22\alang1025 \ltrch\fcs0 \fs22\lang2058\langfe2058\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp2058\langfenp2058 \snext11 \ssemihidden \sunhideused 
+Normal Table;}{\s15\ql \li0\ri0\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af2\afs20\alang1025 
+\ltrch\fcs0 \fs20\lang2058\langfe2058\loch\f2\hich\af2\dbch\af31505\cgrid\langnp2058\langfenp2058 \sbasedon0 \snext15 \slink16 \ssemihidden \sunhideused \styrsid10188755 HTML Preformatted;}{\*\cs16 \additive \rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20 
+\sbasedon10 \slink15 \slocked \ssemihidden \styrsid10188755 HTML con formato previo Car;}{\*\cs17 \additive \rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20 \sbasedon10 \ssemihidden \sunhideused \styrsid10188755 HTML Code;}}{\*\pgptbl {\pgp\ipgp10\itap0\li600
+\ri0\sb0\sa0}{\pgp\ipgp30\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp14\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp39\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp10\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp34\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp43\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp3\itap0
+\li600\ri0\sb0\sa0}{\pgp\ipgp10\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp15\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp10\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp39\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp7\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0
+\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp7\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp39\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp7\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp3\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp30\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp35\itap0
+\li600\ri0\sb0\sa0}{\pgp\ipgp3\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp7\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp10\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp35\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp3\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp30\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp39
+\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp32\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp30\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp16\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp46\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp34
+\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp34\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp10\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp53\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp34\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp7\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp39\itap0\li600\ri0\sb0\sa0}{\pgp
+\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp35\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp34\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp35\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp7\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp39\itap0\li600\ri0\sb0\sa0}{\pgp
+\ipgp35\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp3\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp35\itap0\li600\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp34\itap0\li600\ri0\sb0\sa0}}{\*\rsidtbl \rsid144645\rsid1448781\rsid1452074\rsid1589725\rsid3487898
+\rsid5911676\rsid8412379\rsid8539806\rsid10188755\rsid13329427\rsid14092909\rsid14628930}{\mmathPr\mmathFont34\mbrkBin0\mbrkBinSub0\msmallFrac0\mdispDef1\mlMargin0\mrMargin0\mdefJc1\mwrapIndent1440\mintLim0\mnaryLim1}{\info{\author EDUARDO ORBE TRUJILLO}
+{\operator EDUARDO ORBE TRUJILLO}{\creatim\yr2022\mo5\dy4\hr13\min15}{\revtim\yr2022\mo5\dy4\hr13\min48}{\version4}{\edmins34}{\nofpages24}{\nofwords3208}{\nofchars17650}{\nofcharsws20817}{\vern45}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office
+/word/2003/wordml}}\paperw12240\paperh15840\margl1701\margr1701\margt1417\margb1417\gutter0\ltrsect 
+\widowctrl\ftnbj\aenddoc\hyphhotz425\trackmoves0\trackformatting1\donotembedsysfont0\relyonvml0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\horzdoc\dghspace120\dgvspace120
+\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind1\viewscale180\rsidroot3487898 \nouicompat \fet0{\*\wgrffmtfilter 2450}\nofeaturethrottle1\ilfomacatclnup0\ltrpar \sectd \ltrsect\linex0\sectdefaultcl\sftnbj {\*\pnseclvl1
+\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5
+\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang 
+{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs22\alang1025 \ltrch\fcs0 
+\fs22\lang2058\langfe2058\loch\af31506\hich\af31506\dbch\af31505\cgrid\langnp2058\langfenp2058 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang10\langfe2058\langnp10\insrsid1452074 \hich\af37\dbch\af31505\loch\f37 AX,BX,CX,DX,SI,DI
+\par \hich\af37\dbch\af31505\loch\f37 AX=AH+AL=8+8=16
+\par \hich\af37\dbch\af31505\loch\f37 AH =255
+\par \hich\af37\dbch\af31505\loch\f37 AL=255
+\par \hich\af37\dbch\af31505\loch\f37 AX=65535=64k
+\par \hich\af37\dbch\af31505\loch\f37 EAX=32 Bits 4GB
+\par \hich\af37\dbch\af31505\loch\f37 RAX=64 Bits 
+\par 
+\par \hich\af37\dbch\af31505\loch\f37 inc ax
+\par \hich\af37\dbch\af31505\loch\f37 INC EAX
+\par 
+\par \hich\af37\dbch\af31505\loch\f37 AX=  AH +AL         16 bits AH=AL=8 Bits
+\par \hich\af37\dbch\af31505\loch\f37  16  
+\par \hich\af37\dbch\af31505\loch\f37 EAX AX generico operaciones mate.
+\par \hich\af37\dbch\af31505\loch\f37 incrementar en 1
+\par \hich\af37\dbch\af31505\loch\f37 MOV EAX,1; EAX=1
+\par \hich\af37\dbch\af31505\loch\f37 INC EAX  ;EAX=2
+\par \hich\af37\dbch\af31505\loch\f37 EBX,ECX,EDX,ESI, EDI
+\par \hich\af37\dbch\af31505\loch\f37    MOV EBX,0  ;EBX=0
+\par \hich\af37\dbch\af31505\loch\f37 INC EBX; EBX=1
+\par \hich\af37\dbch\af31505\loch\f37 SUMAR
+\par \hich\af37\dbch\af31505\loch\f37 ADD
+\par \hich\af37\dbch\af31505\loch\f37 MOV EAX,1;  EAX=1
+\par \hich\af37\dbch\af31505\loch\f37 ADD EAX,3   ; EAX=4
+\par \hich\af37\dbch\af31505\loch\f37 ADD EAX,5   ;   EAX=\hich\af37\dbch\af31505\loch\f37 9
+\par 
+\par \hich\af37\dbch\af31505\loch\f37 DECREMENTAR
+\par \hich\af37\dbch\af31505\loch\f37 DEC 
+\par 
+\par \hich\af37\dbch\af31505\loch\f37 MOV EAX,2;  EAX=2
+\par \hich\af37\dbch\af31505\loch\f37 DEC EAX ;    EAX =1
+\par 
+\par \hich\af37\dbch\af31505\loch\f37 RESTAR 
+\par \hich\af37\dbch\af31505\loch\f37 SUB
+\par \hich\af37\dbch\af31505\loch\f37 MOV EAX,2; EAX=2
+\par \hich\af37\dbch\af31505\loch\f37 SUB EAX,2 ;  EAX=0
+\par \hich\af37\dbch\af31505\loch\f37 DIVIDIR
+\par \hich\af37\dbch\af31505\loch\f37 DIV
+\par \hich\af37\dbch\af31505\loch\f37   MOV EAX,10 ;EAX=10
+\par \hich\af37\dbch\af31505\loch\f37 MOV AX, 10 ;AX=10
+\par \hich\af37\dbch\af31505\loch\f37 MOV BL,2;   BH,BL
+\par \hich\af37\dbch\af31505\loch\f37 DIV BX   ;EAX=10  /  BX=2  =>5      RESIDUO =0
+\par 
+\par \hich\af37\dbch\af31505\loch\f37 DX   PARTE ALTA  AX BAJA
+\par 
+\par 
+\par \hich\af37\dbch\af31505\loch\f37 7/2      ->   3               RESIDUO 1
+\par \hich\af37\dbch\af31505\loch\f37 MOV AL,10
+\par \hich\af37\dbch\af31505\loch\f37 MOV BL,2
+\par \hich\af37\dbch\af31505\loch\f37 DIV BL ; AL/BL =>10/2=>5  RESIDUO 0   AH=0
+\par \hich\af37\dbch\af31505\loch\f37 CMP AH,0  
+\par \hich\af37\dbch\af31505\loch\f37 JE PAR      ;JUMP EQUAL SI AX=0 SALTA A LA ETIQUETA PAR   
+\par \hich\af37\dbch\af31505\loch\f37 ;IMPRIMIR\hich\af37\dbch\af31505\loch\f37  QUE ES IMPAR
+\par \hich\af37\dbch\af31505\loch\f37 ;}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1452074 \hich\af37\dbch\af31505\loch\f37  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang10\langfe2058\langnp10\insrsid1452074 \hich\af37\dbch\af31505\loch\f37 
+invoke MessageBox,0,addr about,addr titulo,0
+\par \hich\af37\dbch\af31505\loch\f37 Jmp salir
+\par \hich\af37\dbch\af31505\loch\f37 PAR:
+\par \hich\af37\dbch\af31505\loch\f37 ;IMPRIMIR QUE ES PAR
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1452074 \hich\af37\dbch\af31505\loch\f37 ; }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang10\langfe2058\langnp10\insrsid1452074 \hich\af37\dbch\af31505\loch\f37 invoke MessageBox,0,addr about,addr titulo,0
+\par \hich\af37\dbch\af31505\loch\f37 Salir:
+\par 
+\par 
+\par \hich\af37\dbch\af31505\loch\f37 invoke ExitProcess,NULL
+\par 
+\par 
+\par \hich\af37\dbch\af31505\loch\f37 CMP AX,0  
+\par \hich\af37\dbch\af31505\loch\f37 JE IMPAR      ;JUMP EQUAL   
+\par \hich\af37\dbch\af31505\loch\f37 IMPRIMIR QUE ES PAR
+\par \hich\af37\dbch\af31505\loch\f37 Jmp salir
+\par \hich\af37\dbch\af31505\loch\f37 IMPAR:
+\par \hich\af37\dbch\af31505\loch\f37 IMPRIMIR QUE ES IMPAR
+\par \hich\af37\dbch\af31505\loch\f37 Salir:
+\par \hich\af37\dbch\af31505\loch\f37 invoke ExitProcess,NULL
+\par 
+\par 
+\par 
+\par \hich\af37\dbch\af31505\loch\f37 MOV AX,7
+\par \hich\af37\dbch\af31505\loch\f37 CMP AX,0  
+\par \hich\af37\dbch\af31505\loch\f37 JE CERO
+\par 
+\par 
+\par 
+\par \hich\af37\dbch\af31505\loch\f37 MOV AX,10  ; AX=10
+\par \hich\af37\dbch\af31505\loch\f37 MOV BX,2   ;BX=2
+\par \hich\af37\dbch\af31505\loch\f37 DIV BX ; AX/BX =5 
+\par 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs72 \ltrch\fcs0 \b\f0\fs72\cf19\insrsid1452074 \hich\af0\dbch\af31505\loch\f0 Using the .IF Syntax}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 
+\b\f0\fs24\cf20\insrsid1452074 \line \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid1452074 \hich\af0\dbch\af31505\loch\f0 
+MASM has the capacity to handle both simple and complex block comparison operations in a clear and easy to use syntax that reasonably well emulates higher level code. The .IF block syntax can be safely nested in the normal high level manner and is subject
+\hich\af0\dbch\af31505\loch\f0  \hich\af0\dbch\af31505\loch\f0 to the normal rules of comparison using the CMP instruction.\line }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\cf20\insrsid1452074 \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 
+\b\f0\fs36\cf19\insrsid1452074 \hich\af0\dbch\af31505\loch\f0 Simple}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\cf20\insrsid1452074 
+\par }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 .if variable == value}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \~
+\hich\af2\dbch\af31505\loch\f2  ; do something here}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 .endif}{\rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \f0\fs24\insrsid1452074 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid1452074 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid1452074 \hich\af0\dbch\af31505\loch\f0 
+This type of code can be extended in two directions, it can handle more complex comparisons on a single line and it can perform multipl\hich\af0\dbch\af31505\loch\f0 e comparisons sequentially as is common in high level languages.\line \line }{
+\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid1452074 \hich\af0\dbch\af31505\loch\f0 Sequential Evaluation}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid1452074 
+\par }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 .if variable == value}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \~
+\hich\af2\dbch\af31505\loch\f2  ; do something}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 .elseif variable != another_value}{
+\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \~\hich\af2\dbch\af31505\loch\f2  ; do someting else}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{
+\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 .else}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \~
+\hich\af2\dbch\af31505\loch\f2  ; otherwise}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 .endif}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid1452074 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid1452074 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid1452074 \hich\af0\dbch\af31505\loch\f0 You can repeatedly use the }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 
+\b\f0\fs24\ul\insrsid1452074 \hich\af0\dbch\af31505\loch\f0 .elseif}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid1452074 \hich\af0\dbch\af31505\loch\f0  operator to perform additional sequential comparisons but you may only use one }{\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\ul\insrsid1452074 \hich\af0\dbch\af31505\loch\f0 .else}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid1452074 \hich\af0\dbch\af31505\loch\f0  operator which must be the last option before the }{\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\ul\insrsid1452074 \hich\af0\dbch\af31505\loch\f0 .endif}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid1452074 \hich\af0\dbch\af31505\loch\f0  }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid1452074 
+\hich\af0\dbch\af31505\loch\f0 operator.\line Using the C comparison runtime operators below, more complex tasks ca\hich\af0\dbch\af31505\loch\f0 n be performed and in a notation that will be familiar to many programmers.\line \line }{\rtlch\fcs1 
+\ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid1452074 \hich\af0\dbch\af31505\loch\f0 Complex Evaluation}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid1452074 
+\par }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 .if variable > 50 && variable < 100}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 
+\b\f2\fs24\insrsid1452074 \~\hich\af2\dbch\af31505\loch\f2  ; number is within range}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 .else}{
+\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \~\hich\af2\dbch\af31505\loch\f2  ; number is out of range}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 
+\line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 .endif}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid1452074 
+\par }\pard \ltrpar\ql \li0\ri0\sa240\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid1452074 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid1452074 \hich\af0\dbch\af31505\loch\f0 
+The code created by the .IF technique is competitive in \hich\af0\dbch\af31505\loch\f0 
+quality terms to code created by the better end of compilers but note that it is a specific technique that may not be flexible enough for low level code design within an algorithm where register choice and instruction order become critical to the algorith
+\hich\af0\dbch\af31505\loch\f0 m\hich\af0\dbch\af31505\loch\f0 's performance.\line \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid1452074 \hich\af0\dbch\af31505\loch\f0 C comparison run-time operators}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid1452074 
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid1452074 \~\hich\af0\dbch\af31505\loch\f0  \~ \~Operator\~\~ \~\~\~ \~ \~\~\~ \~\~\~\~ Meaning}{\rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \f0\fs24\insrsid1452074 
+\par 
+\par }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 == \~\~\~ \~\~\~ \~\~\~ Equal}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 
+\b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 != \~\~\~ \~\~\~ \~\~\~ Not equal}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 
+> \~\~\~ \~\~\~\~ \~\~\~ Greater than}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 >= \~\~\~ \~\~\~ \~\~\~ Greater than or equal to}{
+\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 < \~\~\~ \~\~\~ \~\~\~\~ Less than}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 
+\f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 <= \~\~\~ \~\~\~ \~\~\~ Less than or \hich\af2\dbch\af31505\loch\f2 equal to}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 
+\f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 & \~\~\~ \~\~ \~ \~\~\~ Bit test (format: expression & bitnumber)}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 
+\line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 !\~\~ \~ \~\~ \~ \~\~\~ Logical NOT}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 
+\b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 && \~\~\~ \~\~\~ \~\~\~ Logical AND}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 
+\hich\af2\dbch\af31505\loch\f2 || \~\~\~ \~\~\~ \~\~\~ Logical OR}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 CARRY? \~\~\~ \~\~\~
+ Carry bit set}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 OVERFLOW?\~ \~\~\~ Overflow bit set}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 
+\f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 PARITY? \~\~ \~\~\~ Parity bit set}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 
+\ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 SIGN? \~\~ \~ \~\~\~ Sign\hich\af2\dbch\af31505\loch\f2  bit set}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 
+\b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 ZERO?\~\~ \~\~ \~\~\~ Zero bit set
+\par 
+\par 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\sa240\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\cf20\insrsid1452074 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid1452074 \hich\af0\dbch\af31505\loch\f0 The }{
+\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid1452074 \hich\af0\dbch\af31505\loch\f0 .while}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid1452074 \hich\af0\dbch\af31505\loch\f0 
+ syntax is a clear code method for less than highly critical loop code where readability and ease of maintainance are the main considerations.
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 .while eax > 0}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{
+\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 \~\hich\af2\dbch\af31505\loch\f2  sub eax, 1}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid1452074 
+\hich\af2\dbch\af31505\loch\f2 .endw}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid1452074 
+\par }\pard \ltrpar\ql \li0\ri0\sa240\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid1452074 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid1452074 \hich\af0\dbch\af31505\loch\f0 The above }{
+\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid1452074 \hich\af0\dbch\af31505\loch\f0 .while}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid1452074 \hich\af0\dbch\af31505\loch\f0  loop produces the following code which shows the logic where 
+\hich\af0\dbch\af31505\loch\f0 the test is performed first by jumping to the end of the loop. This is the opposite of a
+\par \hich\af0\dbch\af31505\loch\f0   mov eax,2 }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\cf21\insrsid1452074 
+\par }\pard \ltrpar\ql \li0\ri0\sa160\sl252\slmult1\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf21\lang10\langfe2058\langnp10\insrsid1452074 \hich\af37\dbch\af31505\loch\f37  }{\rtlch\fcs1 \ab\af2 \ltrch\fcs0 
+\b\f2\cf21\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 .repeat}{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\cf21\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2 \ltrch\fcs0 \b\f2\cf21\insrsid1452074 \~\hich\af2\dbch\af31505\loch\f2  sub eax, 1}{\rtlch\fcs1 \af2 
+\ltrch\fcs0 \f2\cf21\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2 \ltrch\fcs0 \b\f2\cf21\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 .until eax < 1}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf21\insrsid1452074 
+\par }\pard \ltrpar\ql \li0\ri0\sa240\sl252\slmult1\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf21\insrsid1452074 \line }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf21\insrsid1452074 \hich\af37\dbch\af31505\loch\f37 
+The above }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf21\insrsid1452074 \hich\af37\dbch\af31505\loch\f37 .repeat}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf21\insrsid1452074 \hich\af37\dbch\af31505\loch\f37 
+ loop produces the following code which shows the logic where the test is performed after the code \hich\af37\dbch\af31505\loch\f37 in the loop has been run This is the opposite of a\~}{\field{\*\fldinst {\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf21\insrsid1452074 \hich\af37\dbch\af31505\loch\f37 HYPERLINK "mk:@MSITStore:C:\\\\masm32\\\\help\\\\hlhelp.chm::/Using%20.WHILE%20Syntax.htm"}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf21\insrsid3487898 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90ba40000006d006b003a0040004d00530049005400530074006f00720065003a0043003a005c006d00610073006d00330032005c00680065006c0070005c0068006c00680065006c0070002e00630068006d003a003a00
+2f005500730069006e0067002500320030002e005700480049004c004500250032003000530079006e007400610078002e00680074006d000000795881f43b1d7f48af2c825dc485276300000000a5ab0003005c}}}{\fldrslt {\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\ul\cf2\insrsid1452074 
+\hich\af37\dbch\af31505\loch\f37 .WHILE}}}\sectd \ltrsect\linex0\sectdefaultcl\sftnbj {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf21\insrsid1452074 \hich\af37\dbch\af31505\loch\f37  loop which is dealt with in the preceding topic.
+\par }\pard \ltrpar\ql \li0\ri0\sl252\slmult1\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af2 \ltrch\fcs0 \b\f2\cf21\insrsid1452074 \hich\af2\dbch\af31505\loch\f2 lbl0:}{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\cf21\insrsid1452074 \line }{
+\rtlch\fcs1 \ab\af2 \ltrch\fcs0 \b\f2\cf21\insrsid1452074 \~\hich\af2\dbch\af31505\loch\f2  sub eax, 1}{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\cf21\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2 \ltrch\fcs0 \b\f2\cf21\insrsid1452074 \~
+\hich\af2\dbch\af31505\loch\f2  cmp eax, 1}{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\cf21\insrsid1452074 \line }{\rtlch\fcs1 \ab\af2 \ltrch\fcs0 \b\f2\cf21\insrsid1452074 \~\hich\af2\dbch\af31505\loch\f2  jnb lbl0
+\par 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf21\insrsid1452074 \hich\af37\dbch\af31505\loch\f37 include \\masm32\\include\\masm32rt.inc
+\par 
+\par \hich\af37\dbch\af31505\loch\f37 .data
+\par \hich\af37\dbch\af31505\loch\f37 Message1 db "2: Hello World Again!", 0
+\par \hich\af37\dbch\af31505\loch\f37 \hich\f37 Message2 db "3: Hola Mundo!\'94\loch\f37 , 10,13,0
+\par \hich\af37\dbch\af31505\loch\f37 .code
+\par \hich\af37\dbch\af31505\loch\f37 start:
+\par }\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf21\lang10\langfe2058\langnp10\insrsid1452074 \hich\af37\dbch\af31505\loch\f37       cls
+\par \tab \hich\af37\dbch\af31505\loch\f37 print "1: Hello World!", 10, 13
+\par \hich\af37\dbch\af31505\loch\f37  \tab print addr Message1, 10, 13\tab \tab \tab \tab 
+\par \tab \hich\af37\dbch\af31505\loch\f37 invoke StdOut, addr Message2\tab \tab 
+\par \hich\af37\dbch\af31505\loch\f37       ccout "\\t C style string formatting\\n\\t in MASM"
+\par \hich\af37\dbch\af31505\loch\f37       inkey
+\par \hich\af37\dbch\af31505\loch\f37       invoke ExitProcess, 0
+\par \hich\af37\dbch\af31505\loch\f37 end start\tab \tab 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang10\langfe2058\langnp10\insrsid1452074 
+\par 
+\par 
+\par 
+\par 
+\par \hich\af37\dbch\af31505\loch\f37 SP-FFFF FFFF            push\hich\af37\dbch\af31505\loch\f37  EAX   SP=SP-4
+\par \ltrrow}\trowd \irow0\irowband0\ltrrow\ts11\trgaph70\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl70\trpaddr70\trpaddfl3\trpaddfr3\tblind-38\tblindtype3 \clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth8755\clshdrawnil \cellx8647\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth236\clshdrawnil \cellx8883\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang10\langfe2058\langnp10\insrsid1452074 
+\hich\af37\dbch\af31505\loch\f37 8\cell \cell }\pard \ltrpar\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang10\langfe2058\langnp10\insrsid1452074 
+\trowd \irow0\irowband0\ltrrow\ts11\trgaph70\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl70\trpaddr70\trpaddfl3\trpaddfr3\tblind-38\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 
+\clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth8755\clshdrawnil \cellx8647\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth236\clshdrawnil \cellx8883\row \ltrrow}\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang10\langfe2058\langnp10\insrsid1452074 \cell \cell 
+}\pard \ltrpar\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang10\langfe2058\langnp10\insrsid1452074 \trowd \irow1\irowband1\ltrrow\ts11\trgaph70\trleft-108
+\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl70\trpaddr70\trpaddfl3\trpaddfr3\tblind-38\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth8755\clshdrawnil \cellx8647\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth236\clshdrawnil \cellx8883\row \ltrrow
+}\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang10\langfe2058\langnp10\insrsid1452074 \cell \cell }\pard \ltrpar\ql \li0\ri0\sa160\sl259\slmult1
+\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang10\langfe2058\langnp10\insrsid1452074 \trowd \irow2\irowband2\lastrow \ltrrow\ts11\trgaph70\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl70\trpaddr70\trpaddfl3\trpaddfr3\tblind-38\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth8755\clshdrawnil \cellx8647\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth236\clshdrawnil \cellx8883\row }\pard \ltrpar
+\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang10\langfe2058\langnp10\insrsid1452074 \hich\af37\dbch\af31505\loch\f37 Push EAX 
+\par \hich\af37\dbch\af31505\loch\f37 Push CX
+\par \hich\af37\dbch\af31505\loch\f37 \hich\f37 print \'93\loch\f37 \hich\f37 Hola Mundo\'94\loch\f37 ,10,13,0    
+\par \hich\af37\dbch\af31505\loch\f37 EAX=11
+\par \hich\af37\dbch\af31505\loch\f37 Pop ECX
+\par \hich\af37\dbch\af31505\loch\f37 Pop EAX ->8
+\par \hich\af37\dbch\af31505\loch\f37 Sub  EAX,1 -> 7
+\par 
+\par 
+\par \hich\af37\dbch\af31505\loch\f37 SP=0
+\par 
+\par 
+\par \hich\af37\dbch\af31505\loch\f37 include \\masm32\\include\\masm32rt.inc
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par \hich\af37\dbch\af31505\loch\f37 include \\masm32\\include\\masm32rt.inc
+\par \hich\af37\dbch\af31505\loch\f37 .data
+\par \hich\af37\dbch\af31505\loch\f37 number DD 0
+\par \hich\af37\dbch\af31505\loch\f37 .code
+\par \hich\af37\dbch\af31505\loch\f37 start:
+\par \hich\af37\dbch\af31505\loch\f37       cls
+\par \hich\af37\dbch\af31505\loch\f37       mov EBX,[number] ;EBX=0
+\par \hich\af37\dbch\af31505\loch\f37       .while EBX<=10
+\par \hich\af37\dbch\af31505\loch\f37        
+\par \hich\af37\dbch\af31505\loch\f37       mov [number],EBX  ;Number =1235
+\par \hich\af37\dbch\af31505\loch\f37       print "The result is ="
+\par \hich\af37\dbch\af31505\loch\f37       print str$(number),13,10,0
+\par \hich\af37\dbch\af31505\loch\f37        inc EBX
+\par \hich\af37\dbch\af31505\loch\f37        .endw
+\par \hich\af37\dbch\af31505\loch\f37       inkey
+\par \hich\af37\dbch\af31505\loch\f37       invoke ExitProcess, 0
+\par \hich\af37\dbch\af31505\loch\f37 end start
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par \hich\af37\dbch\af31505\loch\f37 include \\masm32\\include\\masm32rt.inc
+\par \hich\af37\dbch\af31505\loch\f37 .data
+\par \hich\af37\dbch\af31505\loch\f37 number DD 0
+\par \hich\af37\dbch\af31505\loch\f37 .code
+\par \hich\af37\dbch\af31505\loch\f37 start:
+\par \hich\af37\dbch\af31505\loch\f37       cls   
+\par \hich\af37\dbch\af31505\loch\f37       mov EBX,[number] ;EBX=0
+\par \hich\af37\dbch\af31505\loch\f37       .while EBX<10 
+\par \hich\af37\dbch\af31505\loch\f37       mov [number],EBX  
+\par \hich\af37\dbch\af31505\loch\f37       print "The result is ="
+\par \hich\af37\dbch\af31505\loch\f37       print str$(numb\hich\af37\dbch\af31505\loch\f37 er),13,10,0
+\par \hich\af37\dbch\af31505\loch\f37        inc EBX 
+\par \hich\af37\dbch\af31505\loch\f37       .endw
+\par \hich\af37\dbch\af31505\loch\f37       inkey
+\par \hich\af37\dbch\af31505\loch\f37       invoke ExitProcess, 0
+\par 
+\par \hich\af37\dbch\af31505\loch\f37       
+\par \hich\af37\dbch\af31505\loch\f37 end start
+\par 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\sb100\sa100\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid1452074 \hich\af0\dbch\af31505\loch\f0 RECT STRUCT\line left DWORD ?\line top DWORD ?\line right DWORD ?\line 
+bottom DWORD ?\line RECT ENDS\line \line \hich\af0\dbch\af31505\loch\f0 The notation for each member is membername, datasize, specifier. In most instances, the specifier is ? which means the member is not initialised to a value.\line \line 
+A structure is written in memory as a sequence of members so in the case of a RECT structure, it \hich\af0\dbch\af31505\loch\f0 i\hich\af0\dbch\af31505\loch\f0 
+s written as four sequential DWORD size members in memory. The members of a structure can be filled in a number of different ways depending on how the structure was originally allocated.\line \line 
+If it is allocated in the .DATA section, it can be initialised to p\hich\af0\dbch\af31505\loch\f0 r\hich\af0\dbch\af31505\loch\f0 
+eset values but if it is allocated on the stack as a LOCAL value within a procedure, the values have to be coded into the structure.\line \line LOCAL Rct :RECT\line \line ; code\line \line mov Rct.left, 1\line mov Rct.top, 2\line mov Rct.right, 3\line 
+mov Rct.bottom, 4\line \line It should be noted that a str\hich\af0\dbch\af31505\loch\f0 u\hich\af0\dbch\af31505\loch\f0 
+cture member is a memory operand so you cannot directly move another memory operand into it, you must either use a register to copy it or the stack mnemonics, push / pop.\line \line 
+You can now refer to the filled structure as a single unit with ADDR Rct in an invo\hich\af0\dbch\af31505\loch\f0 k\hich\af0\dbch\af31505\loch\f0 
+e directive procedure call. If an API call requires the address of a structure, you fill the structure with the values you require and call the API,\line \line invoke APIcall,parameter1,parameter2,ADDR Rct\line \line 
+If you write a procedure where you want the values in a st\hich\af0\dbch\af31505\loch\f0 r\hich\af0\dbch\af31505\loch\f0 ucture passed to it, you can pass the structure by using the structures data type in the procedure.\line \line \line 
+MyProc proc par1:DWORD,par2:DWORD,MyRect:RECT\line \line mov eax, MyRect.left ; copy first member into EAX\line \line The individual members can then be accessed by their na\hich\af0\dbch\af31505\loch\f0 m\hich\af0\dbch\af31505\loch\f0 
+es in the procedure that receives the RECT as a parameter. You call the proc as follows,\line \line invoke MyProc,par1, par2, Rct\line \line Nested structures\line 
+A method common to 32 bit Windows is the use of nested structures. MASM has a notation for dealing with this type of\hich\af0\dbch\af31505\loch\f0  \hich\af0\dbch\af31505\loch\f0 construction. If you needed a structure that had multiple structures in it,
+\line \line MyNestedStruct STRUCT\line item1 RECT <>\line item2 POINT <>\line MyNestedStruct ENDS\line \line This structure uses the above RECT struct and the following POINT struct.\line \line POINT STRUCT\line x DWORD ?\line y DWORD 
+\hich\af0\dbch\af31505\loch\f0 ?\line \hich\af0\dbch\af31505\loch\f0 POINT ENDS\line \line There are six members in this structure, four from the RECT structure and two from the POINT structure. Allocated on the stack it looks like this,\line \line 
+LOCAL mns:MyNestedStruct\line \line The six members are,\line \line mns.item1.left\line mns.item1.top\line mns.item1.right\line m\hich\af0\dbch\af31505\loch\f0 n\hich\af0\dbch\af31505\loch\f0 s.item1.bottom\line mns.item2.x\line mns.item2.y\line \line 
+The notation for mns.item2.x means the allocated structure mns , its second item item2 and the first item in the POINT struct x.\line \line Structures can be nested to multiple depths but they all use this basic notation and 
+\hich\af0\dbch\af31505\loch\f0 l\hich\af0\dbch\af31505\loch\f0 ogic.\line \line Advanced Structure Handling\line 
+Increasingly, there is a need to be able to handle structures that are passed as an address and this type of code is becoming more common in Windows code design. MASM has a specialised notation to make this process a lot\hich\af0\dbch\af31505\loch\f0  
+\hich\af0\dbch\af31505\loch\f0 easier to handle.\line \line If for example you needed to pass the adress of a RECT structure to a procedure, you would normally make the call in the following manner,\line \line invoke MyFunction,ADDR Rct\line \line 
+At the procedure end of this function call you would normally have s\hich\af0\dbch\af31505\loch\f0 o\hich\af0\dbch\af31505\loch\f0 mething like the following,\line \line MyFunction proc lpRect:DWORD\line \line 
+With a simple structure like RECT you can address the seperate parameters manually by putting the address into a register and write to the location of each member,\line \line mov eax, lpRct\line \line mov [eax], DWOR\hich\af0\dbch\af31505\loch\f0 D
+\hich\af0\dbch\af31505\loch\f0  PTR 10\line mov [eax+4], DWORD PTR 12\line mov [eax+8], DWORD PTR 14\line mov [eax+12], DWORD PTR 16\line \line 
+This works fine but with more complex structures this becomes much harder to work with and far more error prone.\line \line The alternative is to use a method that MASM has to a\hich\af0\dbch\af31505\loch\f0 d\hich\af0\dbch\af31505\loch\f0 
+dress the individual members by using the ASSUME directive.\line \line ASSUME eax:PTR RECT\line mov eax, lpRct\line mov [eax].left, 10\line mov [eax].top, 12\line mov [eax].right, 14\line mov [eax].bottom, 16\line ASSUME eax:nothing\line \line 
+This works by telling the assembler that the EAX register is \hich\af0\dbch\af31505\loch\f0 t\hich\af0\dbch\af31505\loch\f0 
+o be treated like a RECT structure. The ASSUME eax:nothing tells the assembler that the register is no longer being used in this manner.\line \line There is an alternative notation where you can individually "type cast" each member.\line \line 
+mov eax, lpRct\line \line mov (RECT PTR [\hich\af0\dbch\af31505\loch\f0 e\hich\af0\dbch\af31505\loch\f0 ax]).left, 10\line mov (RECT PTR [eax]).top, 12\line mov (RECT PTR [eax]).right, 14\line mov (RECT PTR [eax]).bottom, 16}{\rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \f0\fs24\insrsid3487898 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par \hich\af0\dbch\af31505\loch\f0 FILE
+\par }\pard \ltrpar\ql \li0\ri0\sa240\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3487898 {\rtlch\fcs1 \ab\af0\afs72 \ltrch\fcs0 \b\f0\fs72\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 fcreate}{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3487898 {\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 
+mov hFile, fcreate(filename)}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid3487898\charrsid3487898 \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Description}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid3487898\charrsid3487898 
+\par \hich\af0\dbch\af31505\loch\f0 Create a new file with read / write access.
+\par \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Parameters}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par \hich\af0\dbch\af31505\loch\f0 1. }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 filename}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\hich\af0\dbch\af31505\loch\f0  A zero terminated string. This can be a quoted text.
+\par }{\rtlch\fcs1 \af0\afs36 \ltrch\fcs0 \f0\fs36\insrsid3487898\charrsid3487898 \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Return Value}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid3487898\charrsid3487898 
+\par \hich\af0\dbch\af31505\loch\f0 The return value is the handle of the new file.
+\par }{\rtlch\fcs1 \af0\afs36 \ltrch\fcs0 \f0\fs36\insrsid3487898\charrsid3487898 \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Comments}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid3487898\charrsid3487898 
+\par \hich\af0\dbch\af31505\loch\f0 The new file has read and write access. If there is an error, you should test the return value with }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 
+GetLastError()}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 .
+\par }{\rtlch\fcs1 \af0\afs36 \ltrch\fcs0 \f0\fs36\insrsid3487898\charrsid3487898 \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Example}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid3487898\charrsid3487898 
+\par }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 mov hFile, fcreate("mynewfile.ext")}{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\sa240\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3487898 {\rtlch\fcs1 \ab\af0\afs72 \ltrch\fcs0 \b\f0\fs72\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 fopen}{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3487898 {\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 mov hFile, fopen(filename)}
+{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid3487898\charrsid3487898 \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Description}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid3487898\charrsid3487898 
+\par \hich\af0\dbch\af31505\loch\f0 Open an existing file for read / write access.
+\par \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Parameters}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par \hich\af0\dbch\af31505\loch\f0 1. }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 filename}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid3487898\charrsid3487898 
+\hich\af0\dbch\af31505\loch\f0  }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 A zero terminated string. This can be a quoted text.
+\par \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Return Value}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par \hich\af0\dbch\af31505\loch\f0 The handle of the file.
+\par \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Comments}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par \hich\af0\dbch\af31505\loch\f0 I\hich\af0\dbch\af31505\loch\f0 f the function fails, you should test the return value with }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 GetLastError()}{
+\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 .
+\par \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Example}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 mov hFile, fopen("existingfile.ext")}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 
+\par 
+\par }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898 
+\par }\pard \ltrpar\ql \li0\ri0\sa240\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3487898 {\rtlch\fcs1 \ab\af0\afs72 \ltrch\fcs0 \b\f0\fs72\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 fwrite}{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3487898 {\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 
+mov bwritten, fwrite(hFile,buffer,bcnt)}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid3487898\charrsid3487898 \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Description}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid3487898\charrsid3487898 
+\par \hich\af0\dbch\af31505\loch\f0 Write data to an open file.
+\par \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Parameters}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par \hich\af0\dbch\af31505\loch\f0 1. }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 hFile}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid3487898\charrsid3487898 
+\hich\af2\dbch\af31505\loch\f2  }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 The open file handle.\line 2. }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 
+\hich\af2\dbch\af31505\loch\f2 buffer}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2  }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 
+The address of the buffer to write the data to.\line 3. }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 bcnt}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid3487898\charrsid3487898 
+\hich\af2\dbch\af31505\loch\f2  }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 The number of bytes to read.
+\par \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Return Value}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par \hich\af0\dbch\af31505\loch\f0 The number of bytes written to the file or zero on failure.
+\par \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Comments}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par \hich\af0\dbch\af31505\loch\f0 Use }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 GetLastError()}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\hich\af0\dbch\af31505\loch\f0  if the operation fails.
+\par }\pard \ltrpar\ql \li0\ri0\sa240\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3487898 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 
+\b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Example}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3487898 {\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 
+mov bwritten, fwrite(hFile,lpmemory,bytecount)}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }\pard \ltrpar\ql \li0\ri0\sa240\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3487898 {\rtlch\fcs1 \ab\af0\afs72 \ltrch\fcs0 \b\f0\fs72\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 fread}{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3487898 {\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 
+mov bWritten, fread(hFile,lpMemory,bytecount)}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid3487898\charrsid3487898 \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Description}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid3487898\charrsid3487898 
+\par \hich\af0\dbch\af31505\loch\f0 Read data from an open file.
+\par \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Parameters}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par \hich\af0\dbch\af31505\loch\f0 1. }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 hFile}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid3487898\charrsid3487898 
+\hich\af2\dbch\af31505\loch\f2  }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 The open file handle.\line 2. }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 
+\hich\af2\dbch\af31505\loch\f2 buffer}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2  }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 
+The address of the buffer to write the data to.\line 3. }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 b\hich\af2\dbch\af31505\loch\f2 cnt}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 
+\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2  }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 The number of bytes to read.
+\par \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Return Value}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par \hich\af0\dbch\af31505\loch\f0 The return value is the number of bytes read from the file.
+\par \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Comments}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par \hich\af0\dbch\af31505\loch\f0 The buffer must be large enough to handle the number of bytes read into it. Normally the buffer will be allocated to at least that size or \hich\af0\dbch\af31505\loch\f0 larger.
+\par \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Example}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 mov bWritten, fread(hFile,lpMemory,bytecount)}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }\pard \ltrpar\ql \li0\ri0\sb100\sa100\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898 
+\par 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\sa240\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3487898 {\rtlch\fcs1 \ab\af0\afs72 \ltrch\fcs0 \b\f0\fs72\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 fseek}{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3487898 {\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 
+mov cloc, fseek(hFile,distance,location)}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid3487898\charrsid3487898 \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Description}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid3487898\charrsid3487898 \line \hich\af0\dbch\af31505\loch\f0 Set the location of the file pointer.\line \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Parameters}{
+\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par \hich\af0\dbch\af31505\loch\f0 1. }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 hFile}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid3487898\charrsid3487898 
+\hich\af2\dbch\af31505\loch\f2  }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 The handle of the open file.\line 2. }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 
+\b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 distance}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2  }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 The number of bytes to move.\line 3. }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 location}{\rtlch\fcs1 \af2\afs24 
+\ltrch\fcs0 \f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2  }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 The reference point to move from.
+\par }\pard \ltrpar\ql \li0\ri0\sa240\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3487898 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 
+\b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Return Value}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 \line \hich\af0\dbch\af31505\loch\f0 
+The return value is the current location of the file pointer within the open file.\line \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 Comments}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid3487898\charrsid3487898 \line \hich\af0\dbch\af31505\loch\f0 The }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 distance}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0  argument can be specified as either a positive or a negative \hich\af0\dbch\af31505\loch\f0 number which will be respectively added or subtracted from the position set in the }{
+\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 location}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0  argument.\line \line The }{
+\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 location}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 
+ argument specifies what location in the file to use. There is a choice of 3 locations which are standard Windows equates.
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3487898 {\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 FILE_BEGIN}{\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0  The beg\hich\af0\dbch\af31505\loch\f0 inning of the file.\line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 
+\hich\af2\dbch\af31505\loch\f2 FILE_CURRENT}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0  The current location of the file pointer.\line }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 
+\b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 FILE_END}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0  The end of the file}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid3487898\charrsid3487898 
+\par \line \hich\af0\dbch\af31505\loch\f0 If for examp\hich\af0\dbch\af31505\loch\f0 le you wished to set the file pointer at 100 bytes past the beginning of the file, you would use the equate }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 
+\b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 FILE_BEGIN}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0  for the }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 
+\b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 location}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2  }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 argument and set the }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 distance}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 
+\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2  }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0 argument at 100.\line \line 
+Note that this macro will only work on files within the DWORD length. Fo\hich\af0\dbch\af31505\loch\f0 r files larger than 4 gigabytes use the}{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \hich\af2\dbch\af31505\loch\f2 
+ SetFilePointer()}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 \hich\af0\dbch\af31505\loch\f0  API function.\line \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid3487898\charrsid3487898 
+\hich\af0\dbch\af31505\loch\f0 Example}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid3487898\charrsid3487898 \line \hich\af2\dbch\af31505\loch\f2 mov cloc, fseek(hFile,100,FILE_BEGIN)}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }\pard \ltrpar\ql \li0\ri0\sb100\sa100\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }\pard \ltrpar\ql \li0\ri0\sa240\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid13329427 {\rtlch\fcs1 \ab\af0\afs72 \ltrch\fcs0 \b\f0\fs72\insrsid13329427\charrsid13329427 \hich\af0\dbch\af31505\loch\f0 fsize}{
+\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13329427\charrsid13329427 
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid13329427 {\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid13329427\charrsid13329427 \hich\af2\dbch\af31505\loch\f2 mov flen, fsize(hFile)}{
+\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13329427\charrsid13329427 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid13329427\charrsid13329427 \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid13329427\charrsid13329427 \hich\af0\dbch\af31505\loch\f0 Description}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid13329427\charrsid13329427 
+\par \hich\af0\dbch\af31505\loch\f0 Returns the size in bytes of an open file.
+\par \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid13329427\charrsid13329427 \hich\af0\dbch\af31505\loch\f0 Parameters}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13329427\charrsid13329427 
+\par \hich\af0\dbch\af31505\loch\f0 1. }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid13329427\charrsid13329427 \hich\af2\dbch\af31505\loch\f2 hFile}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid13329427\charrsid13329427 
+\hich\af2\dbch\af31505\loch\f2  }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13329427\charrsid13329427 \hich\af0\dbch\af31505\loch\f0 The\hich\af0\dbch\af31505\loch\f0  handle of the file.
+\par \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid13329427\charrsid13329427 \hich\af0\dbch\af31505\loch\f0 Return Value}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13329427\charrsid13329427 
+\par \hich\af0\dbch\af31505\loch\f0 The length of the file in bytes.
+\par \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid13329427\charrsid13329427 \hich\af0\dbch\af31505\loch\f0 Comments}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13329427\charrsid13329427 
+\par \hich\af0\dbch\af31505\loch\f0 The macro is limited to DWORD range. If you need to work on a file larger than 4 gigabytes, use the }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid13329427\charrsid13329427 \hich\af2\dbch\af31505\loch\f2 
+GetFileSize()}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13329427\charrsid13329427 \hich\af0\dbch\af31505\loch\f0  API function.
+\par }\pard \ltrpar\ql \li0\ri0\sb100\sa100\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid13329427 
+\par }\pard \ltrpar\ql \li0\ri0\sa240\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid14628930 {\rtlch\fcs1 \ab\af0\afs72 \ltrch\fcs0 \b\f0\fs72\insrsid14628930\charrsid14628930 \hich\af0\dbch\af31505\loch\f0 fclose}{
+\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid14628930\charrsid14628930 
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid14628930 {\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid14628930\charrsid14628930 \hich\af2\dbch\af31505\loch\f2 fclose hFile}{
+\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid14628930\charrsid14628930 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid14628930\charrsid14628930 \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid14628930\charrsid14628930 \hich\af0\dbch\af31505\loch\f0 Description}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid14628930\charrsid14628930 
+\par \hich\af0\dbch\af31505\loch\f0 Close an already\hich\af0\dbch\af31505\loch\f0  open file handle.
+\par \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid14628930\charrsid14628930 \hich\af0\dbch\af31505\loch\f0 Parameters}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid14628930\charrsid14628930 
+\par \hich\af0\dbch\af31505\loch\f0 1. }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid14628930\charrsid14628930 \hich\af2\dbch\af31505\loch\f2 hFile}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\insrsid14628930\charrsid14628930 
+\hich\af2\dbch\af31505\loch\f2  }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid14628930\charrsid14628930 \hich\af0\dbch\af31505\loch\f0 The open file handle.
+\par }{\rtlch\fcs1 \af0\afs36 \ltrch\fcs0 \f0\fs36\insrsid14628930\charrsid14628930 \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid14628930\charrsid14628930 \hich\af0\dbch\af31505\loch\f0 Return Value}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid14628930\charrsid14628930 
+\par \hich\af0\dbch\af31505\loch\f0 Function has succeeded if the return value in EAX is not zero.
+\par \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid14628930\charrsid14628930 \hich\af0\dbch\af31505\loch\f0 Comments}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid14628930\charrsid14628930 
+\par \hich\af0\dbch\af31505\loch\f0 Errors should be tested with }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid14628930\charrsid14628930 \hich\af2\dbch\af31505\loch\f2 GetLastError().}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid14628930\charrsid14628930 
+\par \line }{\rtlch\fcs1 \ab\af0\afs36 \ltrch\fcs0 \b\f0\fs36\insrsid14628930\charrsid14628930 \hich\af0\dbch\af31505\loch\f0 Example}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid14628930\charrsid14628930 
+\par }{\rtlch\fcs1 \ab\af2\afs24 \ltrch\fcs0 \b\f2\fs24\insrsid14628930\charrsid14628930 \hich\af2\dbch\af31505\loch\f2 fclose hFile}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid14628930\charrsid14628930 
+\par }\pard \ltrpar\ql \li0\ri0\sb100\sa100\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid14628930 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid10188755 {\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f43\fs20\chbrdr\brdrnone\brdrframe1 \insrsid10188755\charrsid10188755 \hich\af43\dbch\af31505\loch\f43 .386 
+\par \hich\af43\dbch\af31505\loch\f43 .model flat,stdcall 
+\par \hich\af43\dbch\af31505\loch\f43 option casemap:none 
+\par \hich\af43\dbch\af31505\loch\f43 include \\masm32\\include\\windows.inc 
+\par \hich\af43\dbch\af31505\loch\f43 include \\masm32\\include\\user32.inc 
+\par \hich\af43\dbch\af31505\loch\f43 includelib \\masm32\\lib\\user32.lib
+\par \hich\af43\dbch\af31505\loch\f43 include \\masm32\\include\\kernel32.inc 
+\par \hich\af43\dbch\af31505\loch\f43 includelib \\masm32\\lib\\kernel32.lib
+\par 
+\par \hich\af43\dbch\af31505\loch\f43 .DATA
+\par \hich\af43\dbch\af31505\loch\f43 FileName db "C:\\Users\\mach\hich\af43\dbch\af31505\loch\f43 ine\\Desktop\\putty.exe",NULL
+\par \hich\af43\dbch\af31505\loch\f43 BadText db "Its not ok",0
+\par \hich\af43\dbch\af31505\loch\f43 OkText db "Its ok",0
+\par \hich\af43\dbch\af31505\loch\f43 .DATA?
+\par \hich\af43\dbch\af31505\loch\f43 hFile HANDLE ?
+\par 
+\par \hich\af43\dbch\af31505\loch\f43 .CODE
+\par \hich\af43\dbch\af31505\loch\f43 start: 
+\par \hich\af43\dbch\af31505\loch\f43     invoke CreateFile,addr FileName,GENERIC_READ OR GENERIC_WRITE,FILE_SHARE_READ OR FILE_SHARE_WRITE, NULL,OPEN_EXISTING,FILE_ATTRIBUTE_NORMAL,NULL
+\par \hich\af43\dbch\af31505\loch\f43     mov hFile,eax
+\par \hich\af43\dbch\af31505\loch\f43     cmp hFile, INVALID_HANDLE_VALUE
+\par \hich\af43\dbch\af31505\loch\f43     jz code1
+\par \hich\af43\dbch\af31505\loch\f43     invoke MessageBox,NULL,addr OkText,a\hich\af43\dbch\af31505\loch\f43 ddr OkText,MB_OK
+\par \hich\af43\dbch\af31505\loch\f43     invoke ExitProcess,0
+\par 
+\par 
+\par 
+\par \hich\af43\dbch\af31505\loch\f43 code1:
+\par \hich\af43\dbch\af31505\loch\f43     invoke MessageBox,NULL,addr BadText,addr BadText,MB_OK
+\par \hich\af43\dbch\af31505\loch\f43     invoke ExitProcess,0
+\par \hich\af43\dbch\af31505\loch\f43     ret
+\par 
+\par \hich\af43\dbch\af31505\loch\f43 end start}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f43\fs20\insrsid10188755\charrsid10188755 
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid10188755 {\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid10188755 \hich\af2\dbch\af31505\loch\f2 \hich\f2 ; \'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab
+\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab
+\par \hich\af2\dbch\af31505\loch\f2     include \\masm32\\inclu\hich\af2\dbch\af31505\loch\f2 de\\masm32rt.inc
+\par \hich\af2\dbch\af31505\loch\f2 \hich\f2 ; \'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab
+\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 comment * -----------------------------------------------------
+\par \hich\af2\dbch\af31505\loch\f2                         Build this  template with
+\par \hich\af2\dbch\af31505\loch\f2                        "CONSOLE ASSEMBLE AND LINK"
+\par 
+\par \hich\af2\dbch\af31505\loch\f2         This example shows how to use the preprocessor code
+\par \hich\af2\dbch\af31505\loch\f2         (macros) supplied with the latest service pack for
+\par \hich\af2\dbch\af31505\loch\f2         MASM32 for file IO code.
+\par \hich\af2\dbch\af31505\loch\f2         --------------------------------------------\hich\af2\dbch\af31505\loch\f2 --------- *
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     .code
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 start:
+\par \hich\af2\dbch\af31505\loch\f2    
+\par \hich\af2\dbch\af31505\loch\f2 \hich\f2 ; \'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab
+\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     call main
+\par \hich\af2\dbch\af31505\loch\f2     inkey
+\par \hich\af2\dbch\af31505\loch\f2     exit
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 \hich\f2 ; \'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab
+\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 main proc
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     LOCAL hFile :DWORD\hich\af2\dbch\af31505\loch\f2                           ; file handle
+\par \hich\af2\dbch\af31505\loch\f2     LOCAL bwrt  :DWORD                          ; variable for bytes written
+\par \hich\af2\dbch\af31505\loch\f2     LOCAL cloc  :DWORD                          ; current location variable
+\par \hich\af2\dbch\af31505\loch\f2     LOCAL txt   :DWORD                          ; text handle
+\par \hich\af2\dbch\af31505\loch\f2  \hich\af2\dbch\af31505\loch\f2    LOCAL flen  :DWORD                          ; file length variable
+\par \hich\af2\dbch\af31505\loch\f2     LOCAL hMem  :DWORD                          ; allocated memory handle
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     sas txt,"Test String"                       ; assign string to local variable
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     .if rv(exist,"testfile.txt") != 0           ; if file already exists
+\par \hich\af2\dbch\af31505\loch\f2       test fdelete("testfile.txt"), eax         ; delete it
+\par \hich\af2\dbch\af31505\loch\f2     .endif
+\par 
+\par \hich\af2\dbch\af31505\loch\f2   ; ----------------------------------
+\par \hich\af2\dbch\af31505\loch\f2   ; create a file and write data to it
+\par \hich\af2\dbch\af31505\loch\f2   ; ----------------------------------
+\par \hich\af2\dbch\af31505\loch\f2     mov hFile, fcreate("testfile.txt")          ; create the file
+\par \hich\af2\dbch\af31505\loch\f2     mov bwrt, fwrite(hFile,txt,len(txt))        ; write data to it
+\par \hich\af2\dbch\af31505\loch\f2     fclose hFile                  \hich\af2\dbch\af31505\loch\f2               ; close the file
+\par 
+\par \hich\af2\dbch\af31505\loch\f2   ; -------------------------------------
+\par \hich\af2\dbch\af31505\loch\f2   ; reopen the file and append data to it
+\par \hich\af2\dbch\af31505\loch\f2   ; -------------------------------------
+\par \hich\af2\dbch\af31505\loch\f2     mov hFile, fopen("testfile.txt")            ; open the existing file
+\par \hich\af2\dbch\af31505\loch\f2     mov cloc, fseek(hFile\hich\af2\dbch\af31505\loch\f2 ,0,FILE_END)           ; set the file pointer to the end
+\par \hich\af2\dbch\af31505\loch\f2     fprint hFile," Additional data appended"    ; append text to existing data
+\par \hich\af2\dbch\af31505\loch\f2     fclose hFile                                ; close the file
+\par 
+\par \hich\af2\dbch\af31505\loch\f2   ; -------------------------------------------------
+\par \hich\af2\dbch\af31505\loch\f2   ; open the file again, read and display its content
+\par \hich\af2\dbch\af31505\loch\f2   ; -------------------------------------------------
+\par \hich\af2\dbch\af31505\loch\f2     mov hFile, fopen("testfile.txt")            ; open the existing file again
+\par \hich\af2\dbch\af31505\loch\f2     mov flen, fsize(hFile)                      ; get its length
+\par \hich\af2\dbch\af31505\loch\f2     \hich\af2\dbch\af31505\loch\f2 mov hMem, alloc(flen)                       ; allocate a buffer of that size
+\par \hich\af2\dbch\af31505\loch\f2     mov bwrt, fread(hFile,hMem,flen)            ; read data from file into buffer
+\par \hich\af2\dbch\af31505\loch\f2     fclose hFile                                ; close the file
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     invoke StripLF,hMem
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     print hMem,13,10                            ; display text to console
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     free hMem                                   ; free the allocated memory
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     ret
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 main\hich\af2\dbch\af31505\loch\f2  endp
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 \hich\f2 ; \'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab
+\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab\'ab
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 end start
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\sb100\sa100\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898\charrsid3487898 
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid1589725 {\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid1589725 \hich\af2\dbch\af31505\loch\f2 .386
+\par \hich\af2\dbch\af31505\loch\f2 .model flat,stdcall
+\par \hich\af2\dbch\af31505\loch\f2 option casemap:none
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 include     \\masm32\\include\\windows.inc
+\par \hich\af2\dbch\af31505\loch\f2 include     \\masm32\\include\\kernel32.inc
+\par \hich\af2\dbch\af31505\loch\f2 include     \\masm32\\include\\user32.inc
+\par \hich\af2\dbch\af31505\loch\f2 include     \\masm32\\include\\masm32.inc
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 includelib  \\masm32\\lib\\kernel32.lib
+\par \hich\af2\dbch\af31505\loch\f2 includelib  \\masm32\\lib\\user32.lib
+\par \hich\af2\dbch\af31505\loch\f2 includelib  \\masm32\\lib\\masm32.lib
+\par 
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 .data
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 FileName    db 'test.txt',0     ; file to read
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 .data?
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 hFile       dd ?
+\par \hich\af2\dbch\af31505\loch\f2 FileSize    dd ?
+\par \hich\af2\dbch\af31505\loch\f2 hMem        dd ?
+\par \hich\af2\dbch\af31505\loch\f2 BytesRead   dd ?
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 .code
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 start:
+\par 
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     invoke  CreateFile,ADDR FileName,GENERIC_READ,0,0,\\
+\par \hich\af2\dbch\af31505\loch\f2             OPEN_EXISTING,FILE_ATTRIBUTE_NORMAL,0            
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     mov     hFile,eax
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     invoke  GetFileSize,}{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid14092909 \hich\af2\dbch\af31505\loch\f2 eax}{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid1589725 ,0
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     mov     FileSize,eax
+\par \hich\af2\dbch\af31505\loch\f2     inc     eax
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     invoke  GlobalAlloc,GMEM_FIXED,eax
+\par \hich\af2\dbch\af31505\loch\f2   \hich\af2\dbch\af31505\loch\f2   mov     hMem,eax
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     add     eax,FileSize
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     mov     BYTE PTR [eax],0   ; Set the last byte to NULL so that StdOut
+\par \hich\af2\dbch\af31505\loch\f2                                ; can safely display the text in memory.
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     invoke  ReadFile,hFile,hMem,FileSize,ADDR BytesRead,0
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     \hich\af2\dbch\af31505\loch\f2 invoke  CloseHandle,hFile
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     invoke  StdOut,hMem
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     invoke  GlobalFree,hMem
+\par 
+\par \hich\af2\dbch\af31505\loch\f2     invoke  ExitProcess,0
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 END start}{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid1589725 
+\par }{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid8539806 ----------------------------------
+\par \hich\af2\dbch\af31505\loch\f2 Otro Ejemplo es otro progr\hich\af2\dbch\af31505\loch\f2 am
+\par -----------------------------------
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid8539806 {\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid8539806 \hich\af2\dbch\af31505\loch\f2 .386
+\par \hich\af2\dbch\af31505\loch\f2 .model flat, stdcall
+\par \hich\af2\dbch\af31505\loch\f2 option casemap :none
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 Include    windows.inc
+\par \hich\af2\dbch\af31505\loch\f2 Include    user32.inc
+\par \hich\af2\dbch\af31505\loch\f2 Include    kernel32.inc
+\par \hich\af2\dbch\af31505\loch\f2 IncludeLib    user32.lib
+\par \hich\af2\dbch\af31505\loch\f2 IncludeLib    kernel32.lib
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 .data
+\par \hich\af2\dbch\af31505\loch\f2 theFile DB "n_Copy.exe", 0
+\par \hich\af2\dbch\af31505\loch\f2 inputText DD 0
+\par \hich\af2\dbch\af31505\loch\f2 inputFile DB "C:\\WINDOWS\\NOTEPAD.EXE", 0
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 iFile DD 0
+\par \hich\af2\dbch\af31505\loch\f2 File DD 0
+\par \hich\af2\dbch\af31505\loch\f2 written DD 0
+\par \hich\af2\dbch\af31505\loch\f2 iwritten DD 0
+\par \hich\af2\dbch\af31505\loch\f2 fSize DD 0
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 .code
+\par \hich\af2\dbch\af31505\loch\f2 start:
+\par 
+\par 
+\par 
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 ;===========\hich\af2\dbch\af31505\loch\f2 ======== open file ================;
+\par \hich\af2\dbch\af31505\loch\f2         push 0
+\par \hich\af2\dbch\af31505\loch\f2         push FILE_ATTRIBUTE_NORMAL
+\par \hich\af2\dbch\af31505\loch\f2         Push OPEN_EXISTING
+\par \hich\af2\dbch\af31505\loch\f2         push 0
+\par \hich\af2\dbch\af31505\loch\f2         push FILE_SHARE_READ
+\par \hich\af2\dbch\af31505\loch\f2         Push GENERIC_READ
+\par \hich\af2\dbch\af31505\loch\f2         Push Offset inputFile
+\par \hich\af2\dbch\af31505\loch\f2         call CreateFile
+\par \hich\af2\dbch\af31505\loch\f2         Mov iFile, Eax
+\par \hich\af2\dbch\af31505\loch\f2 ;=================== set write head at 0 ================;
+\par \hich\af2\dbch\af31505\loch\f2         Push FILE_BEGIN
+\par \hich\af2\dbch\af31505\loch\f2         push 0
+\par \hich\af2\dbch\af31505\loch\f2         push 0
+\par \hich\af2\dbch\af31505\loch\f2         Push iFile
+\par \hich\af2\dbch\af31505\loch\f2         call SetFilePointer
+\par 
+\par \hich\af2\dbch\af31505\loch\f2         Push 0
+\par \hich\af2\dbch\af31505\loch\f2            Push iFile
+\par \hich\af2\dbch\af31505\loch\f2            \hich\af2\dbch\af31505\loch\f2 Call GetFileSize
+\par \hich\af2\dbch\af31505\loch\f2         ; at this point eax should be equal to the file size right?
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 ;=================== read from file ================;
+\par \hich\af2\dbch\af31505\loch\f2          Push 0
+\par \hich\af2\dbch\af31505\loch\f2          Push Offset iwritten
+\par \hich\af2\dbch\af31505\loch\f2          Push Eax ;
+\par \hich\af2\dbch\af31505\loch\f2          Push Offset inputText
+\par \hich\af2\dbch\af31505\loch\f2          Push iFile
+\par \hich\af2\dbch\af31505\loch\f2          Call ReadFile
+\par \hich\af2\dbch\af31505\loch\f2 ;=================== close file ================;
+\par \hich\af2\dbch\af31505\loch\f2         Push iFile
+\par \hich\af2\dbch\af31505\loch\f2         Call CloseHandle
+\par 
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 ;=================== create file ================;
+\par \hich\af2\dbch\af31505\loch\f2         Push 0
+\par \hich\af2\dbch\af31505\loch\f2         push FILE_ATTRIBUTE_NORMAL
+\par \hich\af2\dbch\af31505\loch\f2         push OPEN_ALWAYS
+\par \hich\af2\dbch\af31505\loch\f2         push 0
+\par \hich\af2\dbch\af31505\loch\f2         push FILE_SHARE_READ
+\par \hich\af2\dbch\af31505\loch\f2         push GENERIC_WRITE
+\par \hich\af2\dbch\af31505\loch\f2         push offset theFile
+\par \hich\af2\dbch\af31505\loch\f2         call CreateFile
+\par \hich\af2\dbch\af31505\loch\f2         mov File,eax
+\par \hich\af2\dbch\af31505\loch\f2 ;=================== set write head at 0 ================;
+\par \hich\af2\dbch\af31505\loch\f2         push FILE_END
+\par \hich\af2\dbch\af31505\loch\f2       \hich\af2\dbch\af31505\loch\f2   push 0
+\par \hich\af2\dbch\af31505\loch\f2         push 0
+\par \hich\af2\dbch\af31505\loch\f2         push File
+\par \hich\af2\dbch\af31505\loch\f2         call SetFilePointer
+\par \hich\af2\dbch\af31505\loch\f2 ;=================== get string length ================;
+\par \hich\af2\dbch\af31505\loch\f2         Push Offset inputText
+\par \hich\af2\dbch\af31505\loch\f2         call lstrlen
+\par \hich\af2\dbch\af31505\loch\f2 ;=================== write to file ================;
+\par \hich\af2\dbch\af31505\loch\f2          push 0
+\par \hich\af2\dbch\af31505\loch\f2          \hich\af2\dbch\af31505\loch\f2 Push Offset written
+\par \hich\af2\dbch\af31505\loch\f2          Push iwritten         ;iwritten how holds the number of bytes read...
+\par \hich\af2\dbch\af31505\loch\f2          Push Offset inputText
+\par \hich\af2\dbch\af31505\loch\f2          push File
+\par \hich\af2\dbch\af31505\loch\f2          call WriteFile
+\par \hich\af2\dbch\af31505\loch\f2 ;=================== close file ================;
+\par \hich\af2\dbch\af31505\loch\f2         push File
+\par \hich\af2\dbch\af31505\loch\f2         call Cl\hich\af2\dbch\af31505\loch\f2 oseHandle
+\par \hich\af2\dbch\af31505\loch\f2 ;=================== exit app ================;
+\par \hich\af2\dbch\af31505\loch\f2         invoke ExitProcess,eax
+\par \hich\af2\dbch\af31505\loch\f2         invoke PostQuitMessage,0
+\par \hich\af2\dbch\af31505\loch\f2 end start
+\par }\pard \ltrpar\ql \li0\ri0\sb100\sa100\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898 
+\par }\pard \ltrpar\ql \li0\ri0\sb100\sa100\nowidctlpar\brdrt\brdrs\brdrw15\brsp20 \brdrb\brdrs\brdrw15\brsp20 \wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid144645 \hich\af0\dbch\af31505\loch\f0 
+Ejemplo escribir en el archivo
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid144645 {\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid144645 \hich\af2\dbch\af31505\loch\f2         INCLUDE \\masm32\\include\\masm32rt.inc
+\par 
+\par \hich\af2\dbch\af31505\loch\f2         .DATA
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 szFileName db 'MyFile.txt',0
+\par 
+\par \hich\af2\dbch\af31505\loch\f2         .DATA?
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 hFile  HANDLE ?
+\par \hich\af2\dbch\af31505\loch\f2 nBytes dw ?
+\par 
+\par \hich\af2\dbch\af31505\loch\f2         .CODE
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 _main   PROC
+\par 
+\par \hich\af2\dbch\af31505\loch\f2         mov     eax,12345678h
+\par \hich\af2\dbch\af31505\loch\f2         mov     edx,uhex$(eax)     ;EDX = address of hexidecimal string
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 ;create the file
+\par 
+\par \hich\af2\dbch\af31505\loch\f2         push    edx
+\par \hich\af2\dbch\af31505\loch\f2         INVOKE  CreateFile,offset szFileName,GENERIC_WRIT\hich\af2\dbch\af31505\loch\f2 E,FILE_SHARE_READ,
+\par \hich\af2\dbch\af31505\loch\f2                 NULL,CREATE_ALWAYS,FILE_ATTRIBUTE_NORMAL,NULL
+\par \hich\af2\dbch\af31505\loch\f2         mov     hFile,eax
+\par \hich\af2\dbch\af31505\loch\f2         pop     edx
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 ;write the file
+\par 
+\par \hich\af2\dbch\af31505\loch\f2         INVOKE  WriteFile,eax,edx,8,offset nBytes,NULL
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 ;close the file
+\par 
+\par \hich\af2\dbch\af31505\loch\f2         INVOKE  CloseHandle,hFile
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 ;terminate
+\par 
+\par \hich\af2\dbch\af31505\loch\f2         INVOKE  ExitProcess,0
+\par 
+\par \hich\af2\dbch\af31505\loch\f2 _main   ENDP
+\par 
+\par \hich\af2\dbch\af31505\loch\f2         END     _main
+\par 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\sb100\sa100\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid144645 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3487898 
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid1452074 \line \line 
+\par }\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang10\langfe2058\langnp10\insrsid1452074 \tab \tab \tab \tab 
+\par 
+\par }{\*\themedata 504b030414000600080000002100e9de0fbfff0000001c020000130000005b436f6e74656e745f54797065735d2e786d6cac91cb4ec3301045f748fc83e52d4a
+9cb2400825e982c78ec7a27cc0c8992416c9d8b2a755fbf74cd25442a820166c2cd933f79e3be372bd1f07b5c3989ca74aaff2422b24eb1b475da5df374fd9ad
+5689811a183c61a50f98f4babebc2837878049899a52a57be670674cb23d8e90721f90a4d2fa3802cb35762680fd800ecd7551dc18eb899138e3c943d7e503b6
+b01d583deee5f99824e290b4ba3f364eac4a430883b3c092d4eca8f946c916422ecab927f52ea42b89a1cd59c254f919b0e85e6535d135a8de20f20b8c12c3b0
+0c895fcf6720192de6bf3b9e89ecdbd6596cbcdd8eb28e7c365ecc4ec1ff1460f53fe813d3cc7f5b7f020000ffff0300504b030414000600080000002100a5d6
+a7e7c0000000360100000b0000005f72656c732f2e72656c73848fcf6ac3300c87ef85bd83d17d51d2c31825762fa590432fa37d00e1287f68221bdb1bebdb4f
+c7060abb0884a4eff7a93dfeae8bf9e194e720169aaa06c3e2433fcb68e1763dbf7f82c985a4a725085b787086a37bdbb55fbc50d1a33ccd311ba548b6309512
+0f88d94fbc52ae4264d1c910d24a45db3462247fa791715fd71f989e19e0364cd3f51652d73760ae8fa8c9ffb3c330cc9e4fc17faf2ce545046e37944c69e462
+a1a82fe353bd90a865aad41ed0b5b8f9d6fd010000ffff0300504b0304140006000800000021006b799616830000008a0000001c0000007468656d652f746865
+6d652f7468656d654d616e616765722e786d6c0ccc4d0ac3201040e17da17790d93763bb284562b2cbaebbf600439c1a41c7a0d29fdbd7e5e38337cedf14d59b
+4b0d592c9c070d8a65cd2e88b7f07c2ca71ba8da481cc52c6ce1c715e6e97818c9b48d13df49c873517d23d59085adb5dd20d6b52bd521ef2cdd5eb9246a3d8b
+4757e8d3f729e245eb2b260a0238fd010000ffff0300504b030414000600080000002100a7259ef29c070000cb200000160000007468656d652f7468656d652f
+7468656d65312e786d6cec59cd8b1bc915bf07f23f347d97f5d5ad8fc1f2a24fcfda33b6b164873dd648a5eef2547789aad28cc56208de532e81c026e49085bd
+ed21842cecc22eb9e48f31d8249b3f22afaa5bdd5552c99e191c3061463074977eefd5afde7bf5de53d5ddcf5e26d4bbc05c1096f6fcfa9d9aefe174ce16248d
+7afeb3d9a4d2f13d2151ba4094a5b8e76fb0f03fbbf7eb5fdd454732c609f6403e1547a8e7c752ae8eaa5531876124eeb0154ee1bb25e30992f0caa3ea82a34b
+d09bd06aa3566b55134452df4b51026a6720e32db0f778b92473ecdfdbaa1f53982395420dcc299f2ae5389731b08bf3ba42888d1852ee5d20daf361a605bb9c
+e197d2f7281212bee8f935fde757efddada2a35c88ca03b286dc44ffe572b9c0e2bca1e7e4d1593169108441ab5fe8d7002af771e3f6b8356e15fa3400cde7b0
+d28c8badb3dd180639d600658f0edda3f6a859b7f086fee61ee77ea83e165e8332fdc11e7e321982152dbc0665f8700f1f0eba8391ad5f83327c6b0fdfaef547
+41dbd2af413125e9f91eba16b69ac3ed6a0bc892d16327bc1b06937623575ea2201a8ae852532c592a0fc55a825e303e018002522449eac9cd0a2fd11ce27888
+2839e3c43b21510c81b7422913305c6bd426b526fc579f403f698fa2238c0c69c50b9888bd21c5c713734e56b2e73f00adbe0179fbf3cf6f5efff8e6f54f6fbe
+faeacdebbfe7736b5596dc314a2353ee97effef09f6f7eebfdfb876f7ff9fa8fd9d4bb7861e2dffded77effef1cff7a9871597a678fba7efdffdf8fddb3ffffe
+5f7ffddaa1bdcfd199099f91040bef11bef49eb20416e8e08fcff8f524663122a6443f8d044a919ac5a17f2c630bfd68832872e006d8b6e3730ea9c605bcbf7e
+61119ec67c2d8943e3c338b180a78cd101e34e2b3c547319669eadd3c83d395f9bb8a7085db8e61ea2d4f2f278bd821c4b5c2a8731b6683ea1289528c229969e
+fa8e9d63ec58dd178458763d2573ce045b4aef0be20d10719a6446ceac682a858e49027ed9b80882bf2ddb9c3ef7068cba563dc2173612f606a20ef2334c2d33
+de476b891297ca194aa869f013246317c9e986cf4ddc5848f0748429f3c60b2c844be63187f51a4e7f0869c6edf653ba496c2497e4dca5f30431662247ec7c18
+a364e5c24e491a9bd8cfc5398428f29e30e9829f327b87a877f0034a0fbafb39c196bb3f9c0d9e418635299501a2be5973872fef6366c5ef74439708bb524d9f
+27568aed73e28c8ec13ab242fb04638a2ed10263efd9e70e0603b6b26c5e927e10435639c6aec07a80ec5855ef2916d8d3cdcd7e9e3c21c20ad9298ed8013ea7
+9b9dc4b3416982f821cd8fc0eba6cdc750ea1257003ca6f37313f888401708f1e234ca63013a8ce03ea8f5498cac02a6de853b5e37dcf2df55f618eccb17168d
+2bec4b90c1d79681c46ecabcd7363344ad09ca809921e8325ce916442cf79722aab86ab1b5536e696fdad20dd01d594d4f42d20f76403bbd4ff8bfeb7da0c378
+fb976f1c9bede3f43b6ec556b2ba66a77328991ceff4378770bb5dcd90f105f9f49b9a115aa74f30d491fd8c75dbd3dcf634feff7d4f73683fdf763287fa8ddb
+4ec6870ee3b693c90f573e4e2753362fd0d7a8038feca0471ffb24074f7d9684d2a9dc507c22f4c18f80df338b090c2a397de6898b53c0550c8faaccc104162e
+e248cb789cc9df10194f63b482d3a1baaf944422571d096fc5041c1ae961a76e85a7ebe4942db2c3ce7a5d1d6c66955520598ed7c2621c0eaa64866eb5cb03bc
+42bd661be983d62d01257b1d12c6643689a683447b3ba88ca48f75c1680e127a651f8545d7c1a2a3d46f5db5c702a8155e811fdc1efc4ceff96100222004e771
+d09c2f949f32576fbdab9df9313d7dc89856044083bd8d80d2d35dc5f5e0f2d4eab250bb82a72d1246b8d924b46574832762f8199c47a71abd0a8debfaba5bba
+d4a2a74ca1e783d02a69b43bef6371535f83dc6e6ea0a9992968ea5df6fc5633849099a355cf5fc2a1313c262b881da17e73211ac1ddcb5cf26cc3df24b3acb8
+902324e2cce03ae964d9202112738f92a4e7abe5176ea0a9ce219a5bbd0109e19325d785b4f2a99103a7db4ec6cb259e4bd3edc688b274f60a193ecb15ce6fb5
+f8cdc14a92adc1ddd37871e99dd1357f8a20c4c2765d19704104dc1dd4336b2e085c861589ac8cbf9dc294a75df3364ac750368ee82a46794531937906d7a9bc
+a0a3df0a1b186ff99ac1a08649f2427816a9026b1ad5aaa645d5c8381cacba1f1652963392665933adaca2aaa63b8b59336ccbc08e2d6f56e40d565b13434e33
+2b7c96ba77536e779beb76fa84a24a80c10bfb39aaee150a8241ad9ccca2a618efa76195b3f351bb766c17f8016a57291246d66f6dd5eed8ada811cee960f046
+951fe476a3168696dbbe525b5adf9b9b17dbecec05248f1174b96b2a8576255c5b73040dd154f72459da802df252e65b039ebc35273dffcb5ad80f868d7058a9
+75c271256806b54a27ec372bfd306cd6c761bd361a345e41619171520fb33bfb095c60d04d7e73afc7f76eef93ed1dcd9d394baa4cdfca5735717d7b5f6f58b7
+f7d94dbc375397f3be4720e97cd96a4cbacdeea055e936fb934a301a742add616b5019b586edd164340c3bddc92bdfbbd0e0a0df1c06ad71a7d2aa0f8795a055
+53f43bdd4a3b6834fa41bbdf1907fd57791b032bcfd2476e0b30afe675efbf000000ffff0300504b0304140006000800000021000dd1909fb60000001b010000
+270000007468656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73848f4d0ac2301484f78277086f6fd3ba109126dd88
+d0add40384e4350d363f2451eced0dae2c082e8761be9969bb979dc9136332de3168aa1a083ae995719ac16db8ec8e4052164e89d93b64b060828e6f37ed1567
+914b284d262452282e3198720e274a939cd08a54f980ae38a38f56e422a3a641c8bbd048f7757da0f19b017cc524bd62107bd5001996509affb3fd381a89672f
+1f165dfe514173d9850528a2c6cce0239baa4c04ca5bbabac4df000000ffff0300504b01022d0014000600080000002100e9de0fbfff0000001c020000130000
+0000000000000000000000000000005b436f6e74656e745f54797065735d2e786d6c504b01022d0014000600080000002100a5d6a7e7c0000000360100000b00
+000000000000000000000000300100005f72656c732f2e72656c73504b01022d00140006000800000021006b799616830000008a0000001c0000000000000000
+0000000000190200007468656d652f7468656d652f7468656d654d616e616765722e786d6c504b01022d0014000600080000002100a7259ef29c070000cb2000
+001600000000000000000000000000d60200007468656d652f7468656d652f7468656d65312e786d6c504b01022d00140006000800000021000dd1909fb60000
+001b0100002700000000000000000000000000a60a00007468656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73504b050600000000050005005d010000a10b00000000}
+{\*\colorschememapping 3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d3822207374616e64616c6f6e653d22796573223f3e0d0a3c613a636c724d
+617020786d6c6e733a613d22687474703a2f2f736368656d61732e6f70656e786d6c666f726d6174732e6f72672f64726177696e676d6c2f323030362f6d6169
+6e22206267313d226c743122207478313d22646b3122206267323d226c743222207478323d22646b322220616363656e74313d22616363656e74312220616363
+656e74323d22616363656e74322220616363656e74333d22616363656e74332220616363656e74343d22616363656e74342220616363656e74353d22616363656e74352220616363656e74363d22616363656e74362220686c696e6b3d22686c696e6b2220666f6c486c696e6b3d22666f6c486c696e6b222f3e}
+{\*\latentstyles\lsdstimax376\lsdlockeddef0\lsdsemihiddendef0\lsdunhideuseddef0\lsdqformatdef0\lsdprioritydef99{\lsdlockedexcept \lsdqformat1 \lsdpriority0 \lsdlocked0 Normal;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 2;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 3;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 4;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 5;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 6;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 7;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 8;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 9;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 5;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 6;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 7;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 8;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 9;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 1;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 2;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 4;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 5;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 6;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 7;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 8;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 9;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal Indent;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footnote text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 header;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footer;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index heading;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority35 \lsdlocked0 caption;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 table of figures;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 envelope address;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 envelope return;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footnote reference;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation reference;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 line number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 page number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 endnote reference;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 endnote text;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 table of authorities;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 macro;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 toa heading;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 5;\lsdqformat1 \lsdpriority10 \lsdlocked0 Title;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Closing;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Signature;\lsdsemihidden1 \lsdunhideused1 \lsdpriority1 \lsdlocked0 Default Paragraph Font;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 4;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Message Header;\lsdqformat1 \lsdpriority11 \lsdlocked0 Subtitle;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Salutation;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Date;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text First Indent;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text First Indent 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Note Heading;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Block Text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Hyperlink;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 FollowedHyperlink;\lsdqformat1 \lsdpriority22 \lsdlocked0 Strong;
+\lsdqformat1 \lsdpriority20 \lsdlocked0 Emphasis;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Document Map;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Plain Text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 E-mail Signature;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Top of Form;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Bottom of Form;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal (Web);\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Acronym;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Address;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Cite;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Code;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Definition;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Keyboard;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Preformatted;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Sample;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Typewriter;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Variable;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation subject;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 No List;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Balloon Text;\lsdpriority39 \lsdlocked0 Table Grid;
+\lsdsemihidden1 \lsdlocked0 Placeholder Text;\lsdqformat1 \lsdpriority1 \lsdlocked0 No Spacing;\lsdpriority60 \lsdlocked0 Light Shading;\lsdpriority61 \lsdlocked0 Light List;\lsdpriority62 \lsdlocked0 Light Grid;
+\lsdpriority63 \lsdlocked0 Medium Shading 1;\lsdpriority64 \lsdlocked0 Medium Shading 2;\lsdpriority65 \lsdlocked0 Medium List 1;\lsdpriority66 \lsdlocked0 Medium List 2;\lsdpriority67 \lsdlocked0 Medium Grid 1;\lsdpriority68 \lsdlocked0 Medium Grid 2;
+\lsdpriority69 \lsdlocked0 Medium Grid 3;\lsdpriority70 \lsdlocked0 Dark List;\lsdpriority71 \lsdlocked0 Colorful Shading;\lsdpriority72 \lsdlocked0 Colorful List;\lsdpriority73 \lsdlocked0 Colorful Grid;\lsdpriority60 \lsdlocked0 Light Shading Accent 1;
+\lsdpriority61 \lsdlocked0 Light List Accent 1;\lsdpriority62 \lsdlocked0 Light Grid Accent 1;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 1;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 1;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 1;
+\lsdsemihidden1 \lsdlocked0 Revision;\lsdqformat1 \lsdpriority34 \lsdlocked0 List Paragraph;\lsdqformat1 \lsdpriority29 \lsdlocked0 Quote;\lsdqformat1 \lsdpriority30 \lsdlocked0 Intense Quote;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 1;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 1;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 1;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 1;\lsdpriority70 \lsdlocked0 Dark List Accent 1;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 1;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 1;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 1;\lsdpriority60 \lsdlocked0 Light Shading Accent 2;\lsdpriority61 \lsdlocked0 Light List Accent 2;\lsdpriority62 \lsdlocked0 Light Grid Accent 2;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 2;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 2;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 2;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 2;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 2;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 2;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 2;\lsdpriority70 \lsdlocked0 Dark List Accent 2;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 2;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 2;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 2;\lsdpriority60 \lsdlocked0 Light Shading Accent 3;\lsdpriority61 \lsdlocked0 Light List Accent 3;\lsdpriority62 \lsdlocked0 Light Grid Accent 3;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 3;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 3;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 3;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 3;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 3;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 3;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 3;\lsdpriority70 \lsdlocked0 Dark List Accent 3;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 3;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 3;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 3;\lsdpriority60 \lsdlocked0 Light Shading Accent 4;\lsdpriority61 \lsdlocked0 Light List Accent 4;\lsdpriority62 \lsdlocked0 Light Grid Accent 4;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 4;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 4;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 4;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 4;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 4;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 4;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 4;\lsdpriority70 \lsdlocked0 Dark List Accent 4;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 4;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 4;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 4;\lsdpriority60 \lsdlocked0 Light Shading Accent 5;\lsdpriority61 \lsdlocked0 Light List Accent 5;\lsdpriority62 \lsdlocked0 Light Grid Accent 5;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 5;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 5;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 5;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 5;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 5;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 5;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 5;\lsdpriority70 \lsdlocked0 Dark List Accent 5;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 5;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 5;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 5;\lsdpriority60 \lsdlocked0 Light Shading Accent 6;\lsdpriority61 \lsdlocked0 Light List Accent 6;\lsdpriority62 \lsdlocked0 Light Grid Accent 6;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 6;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 6;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 6;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 6;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 6;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 6;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 6;\lsdpriority70 \lsdlocked0 Dark List Accent 6;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 6;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 6;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 6;\lsdqformat1 \lsdpriority19 \lsdlocked0 Subtle Emphasis;\lsdqformat1 \lsdpriority21 \lsdlocked0 Intense Emphasis;
+\lsdqformat1 \lsdpriority31 \lsdlocked0 Subtle Reference;\lsdqformat1 \lsdpriority32 \lsdlocked0 Intense Reference;\lsdqformat1 \lsdpriority33 \lsdlocked0 Book Title;\lsdsemihidden1 \lsdunhideused1 \lsdpriority37 \lsdlocked0 Bibliography;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority39 \lsdlocked0 TOC Heading;\lsdpriority41 \lsdlocked0 Plain Table 1;\lsdpriority42 \lsdlocked0 Plain Table 2;\lsdpriority43 \lsdlocked0 Plain Table 3;\lsdpriority44 \lsdlocked0 Plain Table 4;
+\lsdpriority45 \lsdlocked0 Plain Table 5;\lsdpriority40 \lsdlocked0 Grid Table Light;\lsdpriority46 \lsdlocked0 Grid Table 1 Light;\lsdpriority47 \lsdlocked0 Grid Table 2;\lsdpriority48 \lsdlocked0 Grid Table 3;\lsdpriority49 \lsdlocked0 Grid Table 4;
+\lsdpriority50 \lsdlocked0 Grid Table 5 Dark;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 1;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 1;
+\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 1;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 1;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 1;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 1;
+\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 1;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 2;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 2;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 2;
+\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 2;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 2;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 2;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 2;
+\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 3;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 3;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 3;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 3;
+\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 3;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 3;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 3;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 4;
+\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 4;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 4;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 4;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 4;
+\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 4;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 4;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 5;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 5;
+\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 5;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 5;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 5;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 5;
+\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 5;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 6;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 6;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 6;
+\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 6;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 6;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 6;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 6;
+\lsdpriority46 \lsdlocked0 List Table 1 Light;\lsdpriority47 \lsdlocked0 List Table 2;\lsdpriority48 \lsdlocked0 List Table 3;\lsdpriority49 \lsdlocked0 List Table 4;\lsdpriority50 \lsdlocked0 List Table 5 Dark;
+\lsdpriority51 \lsdlocked0 List Table 6 Colorful;\lsdpriority52 \lsdlocked0 List Table 7 Colorful;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 1;\lsdpriority47 \lsdlocked0 List Table 2 Accent 1;\lsdpriority48 \lsdlocked0 List Table 3 Accent 1;
+\lsdpriority49 \lsdlocked0 List Table 4 Accent 1;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 1;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 1;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 1;
+\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 2;\lsdpriority47 \lsdlocked0 List Table 2 Accent 2;\lsdpriority48 \lsdlocked0 List Table 3 Accent 2;\lsdpriority49 \lsdlocked0 List Table 4 Accent 2;
+\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 2;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 2;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 2;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 3;
+\lsdpriority47 \lsdlocked0 List Table 2 Accent 3;\lsdpriority48 \lsdlocked0 List Table 3 Accent 3;\lsdpriority49 \lsdlocked0 List Table 4 Accent 3;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 3;
+\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 3;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 3;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 4;\lsdpriority47 \lsdlocked0 List Table 2 Accent 4;
+\lsdpriority48 \lsdlocked0 List Table 3 Accent 4;\lsdpriority49 \lsdlocked0 List Table 4 Accent 4;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 4;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 4;
+\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 4;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 5;\lsdpriority47 \lsdlocked0 List Table 2 Accent 5;\lsdpriority48 \lsdlocked0 List Table 3 Accent 5;
+\lsdpriority49 \lsdlocked0 List Table 4 Accent 5;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 5;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 5;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 5;
+\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 6;\lsdpriority47 \lsdlocked0 List Table 2 Accent 6;\lsdpriority48 \lsdlocked0 List Table 3 Accent 6;\lsdpriority49 \lsdlocked0 List Table 4 Accent 6;
+\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 6;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 6;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 6;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Mention;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Smart Hyperlink;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Hashtag;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Unresolved Mention;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Smart Link;}}{\*\datastore 01050000
+02000000180000004d73786d6c322e534158584d4c5265616465722e362e3000000000000000000000060000
+d0cf11e0a1b11ae1000000000000000000000000000000003e000300feff090006000000000000000000000001000000010000000000000000100000feffffff00000000feffffff0000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+fffffffffffffffffdfffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff52006f006f007400200045006e00740072007900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000500ffffffffffffffffffffffff0c6ad98892f1d411a65f0040963251e5000000000000000000000000001f
+0f83e75fd801feffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000105000000000000}}
